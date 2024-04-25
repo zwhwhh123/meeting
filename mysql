@@ -1,0 +1,109 @@
+mysql -uroot -q  登录mysql
+quit/exit 退出
+
+数据类型: 
+1.整数型
+tinyint    1byte
+smallint   2bytes
+mediumint  3bytes
+int        4 
+bigint     8
+
+2.浮点型
+float
+double
+
+3.字符
+M为个数
+char(M) 1byte
+varchar(M) 2
+binary(M)  1
+varbinary(M) 2
+text 长文本
+blob 二进制长文本
+
+4.日期
+time 'HH:MM:SS'
+date 'YYYY-MM-DD'
+datetime 上述组合
+
+数据库sql语言包括 DQL(查询), DML(操作), DDL(定义), DCL(控制), TCL(事务控制)
+
+
+DDL
+数据库
+show databases;
+show create database 数据库名字;
+create database [if not exists] 数据库name;
+drop database 数据库name;
+use 数据库name;
+select database();
+
+
+数据表
+注释 c++一样
+
+show tables;
+desc 表名; 查看结构
+create table 表名(列名1 类型1, 列名2 类型2,....);
+create table 表1 like 表2; 复制表
+alter table 表名 modify column 列名 数据类型; 修改某一列数据类型
+drop table if exists 表名;  删除表 
+delete from 表名; 删除所有数据
+
+
+数据列
+alter table 表名 add 列名 数据类型;     添加一列
+alter table 表名 drop 列名;    删除一列
+alter table 表名 add(...,...); 多列
+
+alter table 表名 modify 列名 数据类型; 修改列数据类型
+
+
+DML增删改
+
+insert into 表名(列名,...) values(..),(),(); 添加一行数据
+delete from 表名 where 条件;
+truncate table 表名; 删除表创建一个同名空表;
+update 表名 set 列名 = 值, .... where 条件;
+
+
+DQL查询
+
+顺序固定！！！！！
+select column1,column2, ...
+from table1,table2,....
+where condition1, condition2....
+group by column
+having 分组后条件   where 分组前过滤, having 分组后过滤
+order by 列排序
+limit num 分页限定
+
+
+select * from table; 查询所有信息
+select distinct 列名 from table;  去除相同数据
+between and 区间范围条件
+int/ not in 在不在集合里 select *from 表名 where 列名 in(10,20,30);
+null 空
+like 模糊查询 _代表单个任意字符， %多个任意  123 -> 1% , 1_3等等
+order by asc/desc 升降序
+select 列名 from 表名 limit N offset M;   limit限制返回的行数， offset从第几行开始查询
+
+函数
+length(), abs(), ceil 上取整, round 四舍五入, floor 下取整
+
+count(), avg, sum, max, min ...
+
+
+连接查询
+
+内连接
+隐式内连接 select (列名) from table1, table2 where 条件;
+显式内连接 select 列名 from table1 [inner] join table2 on 连接条件;
+
+外连接
+....from table1 left/right [outer] join table2 on 条件; left返回左表
+
+自连接 .....from table1 join table1 on 条件;
+
+
