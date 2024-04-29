@@ -1,0 +1,10 @@
+--bare
+-I
+D:/qt/meeting/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug
+-I
+C:/Qt/6.7.0/mingw_64/./qml
+--resource
+D:/qt/meeting/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qmake_meeting.qrc
+--resource
+D:/qt/meeting/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/appmeeting_raw_qml_0.qrc
+D:/qt/meeting/Main.qml

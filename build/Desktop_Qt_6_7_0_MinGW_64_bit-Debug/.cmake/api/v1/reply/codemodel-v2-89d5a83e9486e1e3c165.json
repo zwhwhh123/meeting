@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-ef6120f9953e2cc0bd26.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "meeting",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-9e85d90df38008d33a48.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-e91af2a99e105543105d.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-0af84fd878650dc7bfda.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-330c68b31ac649430b7b.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmeeting::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmeeting-Debug-673b9d26234d4b7caa5c.json",
+					"name" : "appmeeting",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmeeting_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmeeting_autogen-Debug-696edf37488d63cd9db8.json",
+					"name" : "appmeeting_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmeeting_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmeeting_autogen_timestamp_deps-Debug-54d70faf5deea50780a1.json",
+					"name" : "appmeeting_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmeeting_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmeeting_qmlimportscan-Debug-586502020049f1fdcb09.json",
+					"name" : "appmeeting_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmeeting_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmeeting_qmllint-Debug-5967dd550ddabbb3cdd7.json",
+					"name" : "appmeeting_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmeeting_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmeeting_qmllint_json-Debug-fdb0e196075049054999.json",
+					"name" : "appmeeting_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmeeting_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmeeting_qmllint_module-Debug-2f9dd91028c831d07413.json",
+					"name" : "appmeeting_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmeeting_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmeeting_qmltyperegistration-Debug-6a3867e27f0cfcda38e8.json",
+					"name" : "appmeeting_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmeeting_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmeeting_tooling-Debug-91a3d941adadf6c6dbcf.json",
+					"name" : "appmeeting_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/qt/meeting/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+		"source" : "D:/qt/meeting"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

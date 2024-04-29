@@ -1,0 +1,5 @@
+module meeting
+typeinfo appmeeting.qmltypes
+prefer :/meeting/
+Main 1.0 Main.qml
+

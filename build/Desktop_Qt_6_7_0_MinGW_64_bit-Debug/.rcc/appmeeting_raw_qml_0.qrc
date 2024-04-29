@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/meeting/">
+    <file alias="Main.qml">D:/qt/meeting/Main.qml</file>
+  </qresource>
+</RCC>
+

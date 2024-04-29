@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "MySqlManager",
+            "object": true,
+            "qualifiedClassName": "MySqlManager",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "mysqlManager.h",
+    "outputRevision": 68
+}
